@@ -10,6 +10,7 @@ export const Header = () => {
     document.documentElement.classList.add(theme);
     localStorage.setItem('theme',theme);
   },[theme]);
+  
   return (
     <header>
         <div className="logo">
